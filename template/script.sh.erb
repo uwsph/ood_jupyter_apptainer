@@ -13,7 +13,7 @@ cd "${HOME}"
 # Launch the Jupyter Notebook Server
 set -x
 
-BINDS=/home
+BINDS=/home,/projects
 
 apptainer run --no-home -B "$BINDS" \
   --env "PATH=/opt/conda/bin:${PATH}" \
