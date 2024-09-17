@@ -11,3 +11,13 @@ Based on:
 ## License
 
 - MIT, see `LICENSE` file.
+
+## Container Building
+
+The app is designed for using the [Continuum](https://hub.docker.com/u/continuumio/) built Docker containers, or those based on them.
+
+For example, you convert the latest Anaconda3 image into an Apptainer image with:
+
+```bash
+apptainer pull docker://continuumio/anaconda3:latest
+```
